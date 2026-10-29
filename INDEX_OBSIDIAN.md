@@ -66,7 +66,18 @@ graph TD
 
 ---
 
-### 2. `[[Konsep_Inti_DSS_DataDriven|🧠 Konsep_Inti_DSS_DataDriven.md]]`
+### 2. `[[LKD_SPK_Pertemuan_10|📋 LKD_SPK_Pertemuan_10.md]]`
+**Dokumen Utama Lembar Kerja Diskusi (LKD) Pertemuan 10: Gudang Data untuk DSS**
+- **Tema & Bahan**: Turban Bab 8 (Gudang Data / Data Warehouse).
+- **Perspektif**: **Perspektif D (Critical Evaluation — Risk & Limitation Review)**.
+- **Studi Kasus**: PT JelajahNusa Travel (Masalah Silo Data Omnichannel, Inkonsistensi Definisi Pelanggan Aktif, Duplikasi Customer, dan Keterlambatan Laporan Nasional).
+- **Analisis Inti**: 12 Elemen DSS terpadu dan evaluasi kritis 6 konsep inti DW (Subject-Oriented, Integrated, Nonvolatile, Time-Variant, ETL, Metadata, Hub-and-Spoke Architecture, Active DW, Scalability, dan Security).
+- **Uji Kritis 5 Poin**: Serangan kritis berbasis teori Turban terhadap kelemahan Desain Awal (Kualitas Data GIGO, Keterbatasan Skalabilitas Query Tanpa Data Mart, Kerentanan Keamanan & Privasi Data UU PDP, Jebakan Biaya All Real-Time, dan Ketiadaan Tata Kelola Metadata).
+- **Kesimpulan & Rekomendasi**: Kesimpulan tepat 79 kata ($\le 100$ kata) dan rekomendasi arsitektur perbaikan Hub-and-Spoke dengan Dependent Data Mart, Staging Cleansing, serta Kebijakan Hybrid Freshness.
+
+---
+
+### 3. `[[Konsep_Inti_DSS_DataDriven|🧠 Konsep_Inti_DSS_DataDriven.md]]`
 **Kajian Teoretis Mendalam dan Ringkas** berdasarkan Turban Bab 5, 6, 7 dan Panduan Teori:
 1. **CRISP-DM Process**: 6 fase terstruktur dari *Business Understanding* hingga *Deployment* serta relevansinya dengan siklus hidup DSS.
 2. **Predictive vs Descriptive Tasks**: Klasifikasi & Regresi (Supervised) vs Clustering & Association Rules (Unsupervised), formula, dan jenis intervensi keputusan.
@@ -77,7 +88,7 @@ graph TD
 
 ---
 
-### 3. `[[Studi_Kasus_Tiga_Problem_SPK|💼 Studi_Kasus_Tiga_Problem_SPK.md]]`
+### 4. `[[Studi_Kasus_Tiga_Problem_SPK|💼 Studi_Kasus_Tiga_Problem_SPK.md]]`
 **Tiga Contoh Problem Keputusan Nyata (Tugas Persiapan Sebelum Kelas D.2 & D.3)**:
 1. **Problem Ranking Alternatif (Pendekatan MCDM)**:
    - *Kasus*: Seleksi dan Perankingan Mitra Logistik Pihak Ketiga (3PL) untuk Distribusi Nasional E-Commerce.
@@ -94,7 +105,7 @@ graph TD
 
 ---
 
-### 4. `[[Kasus_PT_NusaBelanja_Analisis|🏢 Kasus_PT_NusaBelanja_Analisis.md]]`
+### 5. `[[Kasus_PT_NusaBelanja_Analisis|🏢 Kasus_PT_NusaBelanja_Analisis.md]]`
 **Bedah Kasus Utama Diskusi Kelompok: Prioritas Intervensi Pelanggan PT NusaBelanja**:
 - Dekonstruksi dan evaluasi kritis atas usulan 4 divisi internal (Tim Bisnis, Tim Data, Tim CS, Tim Web).
 - Pemenuhan mandat Direksi: prinsip *no technology bandwagoning*.
